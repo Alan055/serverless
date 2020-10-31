@@ -37,7 +37,7 @@ const message = require('./pub/utils/retcode').message
 app.use(async (ctx, next) => { // next()之前  是拿到接口响应之后  还没开始操作
 	const start = new Date;
 	await next() 	// next()之后  是通过路由操作结束之后  可以拿到即将返回的数据
-	console.log(ctx.body)
+	// console.log(ctx.body)
 	ctx.url.includes('api') && (ctx.body.msg = message[ctx.body.code]) // 增加msg 中文消息提示
 	console.log('%s %s 处理时间：%s' + 'ms', ctx.method, ctx.url, new Date - start); // 这里是检测每次接口处理所需要花费的时间
 });
@@ -72,8 +72,8 @@ app.on('error', (err, ctx) => { // 服务报错的情况下
 	console.log(err)
 });
 
-module.exports = app // 这个有热更新
+// module.exports = app // 这个有热更新
 
-// app.listen(config.SERVER_PORT, '0.0.0.0' , () => { // 启动服务 监听端口
-// 	console.log(`启动服务，监听端口号为： ${config.SERVER_PORT}`)
-// });
+app.listen(config.SERVER_PORT, '0.0.0.0' , () => { // 启动服务 监听端口
+	console.log(`启动服务，监听端口号为： ${config.SERVER_PORT}`)
+});

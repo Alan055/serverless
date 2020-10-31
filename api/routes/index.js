@@ -12,13 +12,13 @@ const routerList = [
 	'reptile',  // 爬虫路由
 	'movie',  // 电影列表路由
 	'movieType',  // 电影类型路由
-	'upload',  // 上传路由
 	'forgetPassword',  // 忘记密码路由
 	'modifyPassword',  // 修改密码路由
 	'statistical',  // 修改密码路由
 	'pushMood',  // 心情墙添加路由
 	'community',  // 社区墙查询路由
-	'test', // 测试
+	'assess', // 访问上报
+	'postError', // 错误上报
 ]
 
 for (let path of routerList) {

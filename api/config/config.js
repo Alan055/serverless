@@ -1,5 +1,5 @@
 // 配置文件  用户区分开发环境和生产环境
-
+const env = require('./../static/js/env')
 const production = { // 生产
 	SERVER_PORT: 3000, // 服务器断开配置
 	REDIS: { // redis配置
@@ -44,10 +44,10 @@ const development = { // 开发
 		maxAge: 3600000, // 最大的缓存时间
 	},
 	MYSQL: { // mysql数据库配置
-		host: '10.0.0.10', // 内网
-		port: '5432', //
-		// host: 'postgres-i1qoc62r.sql.tencentcdb.com', // 公网
-		// port: '3986',
+		// host: '10.0.0.10', // 内网
+		// port: '5432', //
+		host: 'postgres-i1qoc62r.sql.tencentcdb.com', // 公网
+		port: '3986',
 		user: 'tencentdb_i1qoc62r',
 		password: 'j2,M8n1_)cIaQ0N',
 		database: 'tencentdb_i1qoc62r', // 指定使用这个数据库
@@ -67,6 +67,6 @@ const development = { // 开发
 
 }
 
-const config = development // 选择开发/生产模式
+const config = env === 'dev' ? development : production // 选择开发/生产模式
 
 module.exports = config // 输出

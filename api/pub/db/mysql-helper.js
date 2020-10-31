@@ -5,13 +5,18 @@ const pool = new pg.Pool(config.MYSQL)
 let query = function (sql, args) {
 	return new Promise((resolve, reject) => {
 		pool.connect(function (isErr, connection, done) {
-			if(isErr){
+			if (isErr) {
 				console.log("数据库链接失败！")
 				reject(isErr)
-			}else{
-				connection.query(sql,args,(err,result)=>{
+			} else {
+				connection.query(sql, args, (err, result) => {
 					done()
-					err ? reject(err) : resolve(result)
+					if (err) {
+						console.log(sql, args)
+						reject(err)
+					} else {
+						resolve(result)
+					}
 				})
 			}
 		})

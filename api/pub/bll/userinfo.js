@@ -243,9 +243,6 @@ const userinfo = {
 			permission: res.permission
 		}
 		return result
-
-
-
 	},
 	// 发送邮箱
 	sendEmail(args,status,obj){
