@@ -15,6 +15,18 @@
 <p>{{val.label}}</p>
 {% endfor%}
 
+<div>
+    <label>手机号</label>
+    <input type="text" id="inputPhone">
+    <button class="submit">提交</button>
+</div>
+<div>
+    <label>E-mail</label>
+    <input type="text" id="inputEmail">
+    <button class="submitEmail">提交</button>
+</div>
+
+
 <!--<img src="/image/icon.png" alt="">-->
 
 {% include './footer.swig' %}

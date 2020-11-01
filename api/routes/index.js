@@ -19,6 +19,8 @@ const routerList = [
 	'community',  // 社区墙查询路由
 	'assess', // 访问上报
 	'postError', // 错误上报
+	'postClick', // 点击事件上报
+	'postPhone', // 手机号上报
 ]
 
 for (let path of routerList) {
