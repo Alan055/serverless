@@ -9,4 +9,4 @@ inputs:
   vpcConfig:
     vpcId: ${output:${stage}:${app}:fullstack-vpc.vpcId}
     subnetId: ${output:${stage}:${app}:fullstack-vpc.subnetId}
-  extranetAccess: false
+  extranetAccess: true

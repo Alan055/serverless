@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f43f4b1e-092b-404d-8f09-6079b4ec35e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/api/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/serverless.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/sls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/static/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/js/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/static/js/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/db/serverless.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/js/app.1af30364.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/js/app.1af30364.js.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Alan055/serverless" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jiKHYmBKRvOmlOncojSUwzQjCN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="sls.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/api/sls.js" working-dir="$PROJECT_DIR$/api">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.sls.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f43f4b1e-092b-404d-8f09-6079b4ec35e5" name="Default Changelist" comment="" />
+      <created>1604281386095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604281386095</updated>
+      <workItem from="1604281388606" duration="9280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1038" height="168" key="GridCell.Tab.0.bottom" timestamp="1604311369525">
+      <screen x="73" y="23" width="1207" height="777" />
+    </state>
+    <state width="1038" height="241" key="GridCell.Tab.0.bottom/42.23.1238.777@42.23.1238.777" timestamp="1604300101483" />
+    <state width="1038" height="241" key="GridCell.Tab.0.bottom/43.23.1237.777@43.23.1237.777" timestamp="1604298020316" />
+    <state width="1038" height="168" key="GridCell.Tab.0.bottom/73.23.1207.777@73.23.1207.777" timestamp="1604311369525" />
+    <state width="1038" height="168" key="GridCell.Tab.0.center" timestamp="1604311369524">
+      <screen x="73" y="23" width="1207" height="777" />
+    </state>
+    <state width="1038" height="241" key="GridCell.Tab.0.center/42.23.1238.777@42.23.1238.777" timestamp="1604300101482" />
+    <state width="1038" height="241" key="GridCell.Tab.0.center/43.23.1237.777@43.23.1237.777" timestamp="1604298020315" />
+    <state width="1038" height="168" key="GridCell.Tab.0.center/73.23.1207.777@73.23.1207.777" timestamp="1604311369524" />
+    <state width="1038" height="168" key="GridCell.Tab.0.left" timestamp="1604311369524">
+      <screen x="73" y="23" width="1207" height="777" />
+    </state>
+    <state width="1038" height="241" key="GridCell.Tab.0.left/42.23.1238.777@42.23.1238.777" timestamp="1604300101481" />
+    <state width="1038" height="241" key="GridCell.Tab.0.left/43.23.1237.777@43.23.1237.777" timestamp="1604298020315" />
+    <state width="1038" height="168" key="GridCell.Tab.0.left/73.23.1207.777@73.23.1207.777" timestamp="1604311369524" />
+    <state width="1038" height="168" key="GridCell.Tab.0.right" timestamp="1604311369525">
+      <screen x="73" y="23" width="1207" height="777" />
+    </state>
+    <state width="1038" height="241" key="GridCell.Tab.0.right/42.23.1238.777@42.23.1238.777" timestamp="1604300101482" />
+    <state width="1038" height="241" key="GridCell.Tab.0.right/43.23.1237.777@43.23.1237.777" timestamp="1604298020316" />
+    <state width="1038" height="168" key="GridCell.Tab.0.right/73.23.1207.777@73.23.1207.777" timestamp="1604311369525" />
+    <state x="441" y="120" width="615" height="490" key="find.popup" timestamp="1604282874556">
+      <screen x="46" y="23" width="1234" height="777" />
+    </state>
+    <state x="439" y="120" width="616" height="490" key="find.popup/43.23.1237.777@43.23.1237.777" timestamp="1604282701883" />
+    <state x="440" y="120" width="615" height="490" key="find.popup/45.23.1235.777@45.23.1235.777" timestamp="1604282505535" />
+    <state x="441" y="120" width="615" height="490" key="find.popup/46.23.1234.777@46.23.1234.777" timestamp="1604282874556" />
+  </component>
+</project>

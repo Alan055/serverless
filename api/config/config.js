@@ -9,14 +9,14 @@ const production = { // 生产
 		maxAge: 3600000,
 	},
 	MYSQL: { // mysql数据库配置
-		host: 'localhsot',
-		port: '3306',
-		user: 'root',
-		password: 'new-password',
-		database: 'alanSQL',
-		supportBigNumbers: true,
-		multipleStatements: true,
-		timezone: 'utc'
+		host: '10.0.0.10', // 内网
+		port: '5432',
+		user: 'tencentdb_i1qoc62r',
+		password: 'j2,M8n1_)cIaQ0N',
+		database: 'tencentdb_i1qoc62r', // 指定使用这个数据库
+		poolSize: 5,
+		poolIdleTimeout: 30000,
+		reapIntervalMillis: 10000
 	},
 	email: {
 		user: 'alan0555@qq.com',

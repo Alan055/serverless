@@ -6,6 +6,8 @@ var Koa = require('koa')
 	, join = require('path').join; // 文件路径拼接方法
 let app = new Koa()
 let Swig = require('koa-swig')
+const appEnv = require('./static/js/env')
+const fs = require('fs')
 
 
 const config = require('./config/config') // 链接配置
@@ -15,7 +17,7 @@ onerror(app);
 
 
 // global middlewares 全局中间件
-app.use(require('koa-bodyparser')({extended: true,enableType: ['json', 'form', 'text']}));
+app.use(require('koa-bodyparser')({extended: true, enableType: ['json', 'form', 'text']}));
 // app.use(koaBody({
 // 	multipart: true,
 // 	formidable: {
@@ -24,7 +26,9 @@ app.use(require('koa-bodyparser')({extended: true,enableType: ['json', 'form', '
 // }));
 app.use(json());
 app.use(logger());
-app.use(require('koa-static')(join(__dirname, 'static'))) // 静态文件中间件 接口中获取静态资源不需要带static
+app.use(require('koa-static')(join(__dirname, '/static'))) // 静态文件中间件 接口中获取静态资源不需要带static
+// app.use(require('koa-static-server')({rootDir: 'static', rootPath: '/'})) // 静态文件中间件 接口中获取静态资源不需要带static
+
 
 app.use(views(join(__dirname, './views'), {
 	extension: 'swig'
@@ -72,8 +76,12 @@ app.on('error', (err, ctx) => { // 服务报错的情况下
 	console.log(err)
 });
 
-// module.exports = app // 这个有热更新
+if (appEnv === 'product') {
+	module.exports = app // 这个有热更新
+} else {
+	app.listen(config.SERVER_PORT, '0.0.0.0', () => { // 启动服务 监听端口
+		console.log(`启动服务，监听端口号为： ${config.SERVER_PORT}`)
+	});
+}
 
-app.listen(config.SERVER_PORT, '0.0.0.0' , () => { // 启动服务 监听端口
-	console.log(`启动服务，监听端口号为： ${config.SERVER_PORT}`)
-});
+
